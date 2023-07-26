@@ -1,10 +1,11 @@
-*{
-    padding:0 ;
+* {
+    padding: 0;
     margin: 0;
 }
 
-html,body #fullheight{
-    
+html,
+body #fullheight {
+
     min-height: 100% !important;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
@@ -13,16 +14,19 @@ html,body #fullheight{
 }
 
 
-.cal{
+.cal {
     border-radius: 25px;
     margin-top: 10vh;
     margin-left: 40%;
-    height: 100%;
+    width: 340px;
+    align-items: center;
+    text-align: center;
     background-color: black;
+    padding: 20px;
 
 }
 
-.display{
+.display {
 
     display: flex;
     justify-content: flex-end;
@@ -31,27 +35,37 @@ html,body #fullheight{
     height: 50%;
 }
 
-.display span{
+.span {
+    border: 1px solid rgb(104, 69, 69);
+    background: rgb(228, 226, 226);
+    width: 300px;
+    color: black ;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 0px;
+    text-align: right;
+    justify-content:center;
     
-    margin-right:0px;
-    font-size: 65px;
-    justify-content: flex-end;
 
 }
 
-.buttons{
-    
+.buttons {
+
     width: 100%;
     height: 100%;
+
     /* background-color: rgb(7, 7, 7); */
-   
-   
-    
+
+
+
 }
 
+td {
+    height: 70px;
+}
 
-.item{
-   
+.item {
+
     justify-content: center;
     align-items: center;
     font-size: 23px;
@@ -62,21 +76,21 @@ html,body #fullheight{
     padding: 10px;
     cursor: pointer;
     align-self: center;
-    justify-self: center ;
+    justify-self: center;
 }
 
-.item1{
+.item1 {
     background-color: #A5A5A5;
     border: none;
 }
 
-.item2{
+.item2 {
     background-color: #FF9F0A;
     border: none;
 
 }
 
-.numbers{
+.numbers {
     background-color: #343434;
     border: none;
 }

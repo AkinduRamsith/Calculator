@@ -9,7 +9,7 @@ body #fullheight {
     min-height: 100% !important;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(94, 82, 82);
+    background: linear-gradient(45deg,#C0C0C0	,#4d4c4c);
 
 }
 
@@ -31,18 +31,23 @@ body #fullheight {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    color: aliceblue;
+    color: rgb(88, 95, 100);
     height: 50%;
+    box-shadow: 1px 1px 1px 1px ;
+    margin-bottom: 1rem;
+    
+    
 }
 
 .span {
     border: 1px solid rgb(104, 69, 69);
-    background: rgb(228, 226, 226);
-    width: 300px;
+    background: rgb(134, 102, 102);
+    width: 270px;
     color: black ;
     font-size: 30px;
     margin-top: 20px;
-    margin-right: 0px;
+    margin-right: 10px;
+    align-items: center;
     text-align: right;
     justify-content:center;
     
@@ -87,10 +92,15 @@ td {
 .item2 {
     background-color: #FF9F0A;
     border: none;
+    text-align: center ;
 
 }
 
 .numbers {
+    background-color: #343434;
+    border: none;
+}
+.dot{
     background-color: #343434;
     border: none;
 }
